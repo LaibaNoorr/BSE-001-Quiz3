@@ -1,11 +1,12 @@
 pipeline {
     agent any
     stages {
-        stage('Run Python Script') {
+        stage('Simulated Python Script') {
             steps {
-                bat '"C:\\Users\\PMYLS\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" hello.py'
+                bat 'echo Hello from Python branch!'
             }
         }
     }
 }
+
 

@@ -3,8 +3,9 @@ pipeline {
     stages {
         stage('Run Python Script') {
             steps {
-                bat 'python hello.py'
+                bat '"C:\\Users\\PMYLS\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" hello.py'
             }
         }
     }
 }
+
